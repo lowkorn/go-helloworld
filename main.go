@@ -8,7 +8,8 @@ import (
 )
 
 func main() {
-	fmt.Println("hello")
+	fmt.Println("h	ello")
 	fmt.Println(gotools.Add(10, 2))
 	fmt.Println(stringhelper.Upper("Dog"))
+	fmt.Println(stringhelper.Concat("Hello", "Go"))
 }
